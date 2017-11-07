@@ -1,0 +1,34 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+
+}
+
+#box {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	display: none;
+	position: relative;
+}
+
+#position1 {
+	position: absolute;
+	margin: 0;
+	left: 50%;
+	top: 5%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#position2 {
+	position: absolute;
+	margin: 0;
+	left: 50%;
+	top: 10%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
